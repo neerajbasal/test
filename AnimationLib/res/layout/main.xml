@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:id="@+id/main">
+  
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Testing"
+        android:id="@+id/textTest" />"
+    
+<!--   <include layout="@layout/slider_header_to_include" android:id="@+id/includeSlider" /> -->
+  
+ <!--  <ImageView  android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:id="@+id/imageview"
+      android:src="@drawable/one"/> -->
+</LinearLayout>

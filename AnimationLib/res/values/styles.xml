@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="Widget.SliderButton" parent="@android:style/Widget.Button">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingRight">8dp</item>
+		<item name="android:paddingLeft">8dp</item>
+		<item name="android:background">@drawable/selector_slider_item_bg</item>
+		
+	</style>
+
+</resources>

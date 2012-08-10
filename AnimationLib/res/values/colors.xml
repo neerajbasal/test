@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+	<color name="white">#FFF</color>
+	<color name="black">#000000</color>
+	<color name="red">#F00</color>	
+	<color name="green">#0F0</color>
+
+	<!-- bright_blue is not official (just extracted form the actionbar background-->
+	<color name="rtv_bright_blue">#648ca8</color>
+	<color name="rtv_blue">#004080</color>
+	<color name="rtv_red">#ff0000</color>
+	<color name="rtv_grey">#aaaaaa</color>
+	<color name="rtv_black">#000</color>
+
+	<color name="settings_button_solid">#FFF</color>
+	<color name="settings_button_solid_pressed_start_color">#bdaf82</color>
+	<color name="settings_button_solid_pressed_end_color">#eddfa2</color>
+	<color name="settings_button_stroke">#888</color>
+	
+	<color name="settings_text_color_pressed">#000</color>
+	<color name="settings_text_color_normal">#000</color>
+	
+	<color name="dashboard_text">#444</color>
+	
+	<color name="spinner_selected_bg">#F80</color>
+	
+	<color name="actionbar_text">#FFF</color>
+	
+	<color name="activity_background">#FFF</color>
+</resources>

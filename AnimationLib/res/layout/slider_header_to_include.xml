@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	
+	android:layout_marginTop="10dp"
+	android:layout_marginBottom="10dp">
+	
+	<!-- TITLE -->
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:gravity="center_horizontal"
+		
+		android:visibility="visible"
+		android:orientation="vertical"
+		android:id="@+id/SliderTitleContainer" android:layout_centerHorizontal="true">
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/SliderTitle"
+			android:textSize="17dp"
+			android:textColor="@android:color/darker_gray"
+			android:textStyle="bold"></TextView>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#000"
+			android:textStyle="bold"
+			android:text="DD.MM.YYYY HH:mm"
+			android:id="@+id/SliderSubTitle"
+			android:textSize="12dp"></TextView>
+	</LinearLayout>
+
+	<ImageButton
+		android:id="@+id/invisibleButtonSliderLeft"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"		
+		android:layout_alignParentLeft="true"
+		android:background="@drawable/sender_in"
+		android:visibility="invisible"
+		></ImageButton>
+	<!-- SLIDER LEFT -->
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/leftSliderButtonContainer"
+		
+		android:layout_alignRight="@+id/invisibleButtonSliderLeft"
+		>
+		<ImageButton
+			android:id="@+id/ButtonSliderLeft"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"></ImageButton>
+		<HorizontalScrollView
+			android:id="@+id/SliderScrollerLeft"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/slider_bg_not_focussed"
+			android:layout_toLeftOf="@+id/ButtonSliderLeft"
+			>
+			<LinearLayout
+				android:id="@+id/SliderContainerLeft"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:gravity="center_vertical"></LinearLayout>
+	
+			<!-- INFLATE CONTENT IN THIS LAYOUT -->
+		</HorizontalScrollView>
+	</RelativeLayout>
+
+
+	<ImageButton
+		android:id="@+id/invisibleButtonSliderRight"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:background="@drawable/sender_in"
+		android:visibility="invisible"
+		></ImageButton>
+	<!-- SLIDER RIGHT -->
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/rightSliderButtonContainer"
+		android:layout_alignLeft="@+id/invisibleButtonSliderRight"
+		>
+		<ImageButton
+			android:id="@+id/ButtonSliderRight"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" ></ImageButton>
+		<HorizontalScrollView
+			android:id="@+id/SliderScrollerRight"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/slider_bg_not_focussed"
+			android:layout_toRightOf="@+id/ButtonSliderRight">
+	<LinearLayout
+				android:id="@+id/SliderContainerRight"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:gravity="center_vertical"></LinearLayout>
+			<!-- INFLATE CONTENT IN THIS LAYOUT  -->
+		</HorizontalScrollView>
+	</RelativeLayout>
+</RelativeLayout>
