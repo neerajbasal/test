@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="name">Name</string>
+	<string name="location">Location</string>
+	<string name="app_name">Business Calendar</string>
+	<string-array name="timer_name">
+		<item>None</item>
+		<item>On time</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+		<item>15 minutes</item>
+		<item>20 minutes</item>
+		<item>25 minutes</item>
+		<item>30 minutes</item>
+		<item>35 minutes</item>
+		<item>40 minutes</item>
+		<item>45 minutes</item>
+		<item>1 hour</item>
+		<item>1 hour 30 minutes</item>
+		<item>2 hours</item>
+		<item>3 hours</item>
+		<item>4 hours</item>
+		<item>5 hours</item>
+		<item>6 hours</item>
+		<item>7 hours</item>
+		<item>8 hours</item>
+		<item>9 hours</item>
+		<item>10 hours</item>
+		<item>11 hours</item>
+		<item>12 hours</item>
+		<item>18 hours</item>
+		<item>24 hours</item>
+		<item>2 days</item>
+		<item>3 days</item>
+		<item>4 days</item>
+		<item>5 days</item>
+		<item>6 days</item>
+		<item>7 days</item>
+		<item>2 weeks</item>
+		<item>3 weeks</item>
+		<item>4 weeks</item>
+	</string-array>
+	<string-array name="array_name">
+		<item>Phone</item>
+		<item>Google</item>
+	</string-array>
+	<string-array name="day_of_week">
+		<item>Sunday</item>
+		<item>Monday</item>
+	</string-array>
+
+	<string-array name="showme_name">
+		<item>Busy</item>
+		<item>Free</item>
+	</string-array>
+	<string-array name="privacy_name">
+		<item>Confidential</item>
+		<item>Public</item>
+	</string-array>
+	<string-array name="repitition_name">
+		<item>One time event</item>
+		<item>Daily</item>
+		<item>Every week day</item>
+		<item>Weekly</item>
+		<item>Monthly</item>
+		<item>Yearly</item>
+	</string-array>
+
+	<string-array name="color_today">
+		<item>Light Gray</item>
+		<item>Purple</item>
+		<item>Pink</item>
+		<item>Light Green</item>
+		<item>Light Blue</item>
+		<item>Light Brown</item>
+
+	</string-array>
+	<string-array name="color_calendar">
+		<item>Blue</item>
+		<item>Green</item>
+		<item>Gray</item>
+		<item>Maroon</item>
+		<item>Pink</item>
+		<item>Violet</item>
+		<item>Cyan</item>
+
+	</string-array>
+
+</resources>

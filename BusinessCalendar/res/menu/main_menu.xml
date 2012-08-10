@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/agenda" android:alphabeticShortcut="a"
+		android:title="Agenda" />
+
+	<item android:id="@+id/search" android:alphabeticShortcut="s"
+		android:title="Search" />
+
+	<item android:id="@+id/today" android:alphabeticShortcut="t"
+		android:title="Today" />
+
+	<item android:id="@+id/gotod" android:alphabeticShortcut="g"
+		android:title="GoTo" />
+
+	<item android:id="@+id/calendars" android:alphabeticShortcut="c"
+		android:title="Calendars" />
+
+	<item android:id="@+id/settings" android:alphabeticShortcut="e"
+		android:title="Settings" />
+
+	<item android:id="@+id/help" android:alphabeticShortcut="m"
+		android:title="Help" />
+
+</menu>
